@@ -70,6 +70,6 @@ output "privatesubnet" {
 }
 
 
-output "privatert" {
-    value = aws_route_table.pubroutetable
+output "pubrt" {
+    value = aws_route_table.pubroutetable.id
 }

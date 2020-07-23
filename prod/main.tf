@@ -11,6 +11,6 @@ module "my_vpc" {
     vpcid= module.my_vpc.ukvpc
     igw = modules.my_vpc.igw
     pubsubid = modules.my_vpc.publicsubnet
-    pubrt = modules.my_vpc.privatert
+    pubrt = modules.my_vpc.pubrt
 
 }
