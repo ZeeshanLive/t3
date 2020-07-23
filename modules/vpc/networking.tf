@@ -54,7 +54,7 @@ resource "aws_route_table_association" "publicroutetable" {
 
 
 output "igw" {
-    value = aws_internet_gateway.igw
+    value = aws_internet_gateway.igw.id
 }
 
 output "ukvpc" {
