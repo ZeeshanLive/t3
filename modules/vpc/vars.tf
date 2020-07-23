@@ -16,3 +16,8 @@ variable "subnet_cidr2" {
 
 variable vpcid {}
 
+variable igw {}
+
+variable pubsubid {}
+
+variable pubrt {}
