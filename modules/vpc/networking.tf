@@ -53,7 +53,7 @@ resource "aws_route_table_association" "publicroutetable" {
 }
 
 
-output "igw" {
+output "igway" {
     value = aws_internet_gateway.igw.id
 }
 

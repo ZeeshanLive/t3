@@ -9,7 +9,7 @@ module "my_vpc" {
     subnet_cidr1 = "13.0.1.0/24"
     subnet_cidr2 = "13.0.2.0/24"
     vpcid= module.my_vpc.ukvpc
-    igw = module.my_vpc.igw
+    igw = module.my_vpc.igway
     pubsubid = module.my_vpc.publicsubnet
     pubrt = module.my_vpc.pubrt
 
